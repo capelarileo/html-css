@@ -51,25 +51,25 @@ header a:hover{
 
 main{
     font-family: var(--fonte-padrao);
-    font-size: 3.5vw;
+    font-size: 3.5vh;
 }
 
-.padrao{
+section.padrao{
     margin: 30px;
     padding: 50px 0px 80px 0px;
 }
 
-.imgfundo{
+section.imgfundo{
     padding: 45px 0px 45px 15px;
     margin: 30px;
     color: white;
 }
 
 aside {
-    margin: 20px 0px 20px 15px;
+    margin-left: 20px;
     padding: 10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 0.503);
-    width: 75vh;
+    width: 68vh;
 }
 
 #img1{
