@@ -51,43 +51,40 @@ header a:hover{
 
 main{
     font-family: var(--fonte-padrao);
-    font-size: 3.5vw;
+    font-size: 3.0vw;
 }
 
-section.padrao{
-    margin: 30px;
-    padding: 50px 0px 80px 0px;
+section.padrao{    
+    padding: 50px 0px 80px 30px;
+}
+
+section.padrao > p{
+    padding-bottom: 1.5em;
 }
 
 section.imgfundo{
-    padding: 45px 0px 45px 15px;
-    margin: 30px;
+    padding: 45px 0px 45px 15px;   
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(59, 58, 58);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 aside {
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
     background-color: rgba(0, 0, 0, 0.503);
-    width: 68vh;
+    width: 40vw;
 }
 
-#img1{
+section#img1{
     background-image: url('imagens/background001.jpg');
-    margin: 0px;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
-#img2{
+section#img2{
     background-image: url('imagens/background002.jpg');  
-    margin: 0px;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 footer{
