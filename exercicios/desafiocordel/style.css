@@ -51,7 +51,7 @@ header a:hover{
 
 main{
     font-family: var(--fonte-padrao);
-    font-size: 3.5vh;
+    font-size: 3.5vw;
 }
 
 section.padrao{
